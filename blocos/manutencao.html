@@ -1,0 +1,84 @@
+<section class="blk-manut" id="manutencao">
+  <div class="wrap">
+    <div class="blk-manut__cab" data-reveal>
+      <p class="blk-manut__eyebrow">Toxina botulínica</p>
+      <h2 class="blk-manut__titulo">Fazer é o começo. O resultado está em manter.</h2>
+      <p class="blk-manut__lead">O efeito da toxina diminui aos poucos e o músculo volta a se mover. Se a reaplicação atrasa, as linhas voltam a marcar — e, com a repetição do movimento, marcam cada vez mais fundo. Por isso o tratamento aqui é um ciclo, não uma sessão.</p>
+    </div>
+    <ol class="blk-manut__ciclo">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-manut__ico"><!--icone:conversa--></span>
+        <p class="blk-manut__quando">Antes</p>
+        <h3>Avaliação</h3>
+        <p>A Dra. observa como o seu rosto se movimenta e o que incomoda você. Quantidade e pontos de aplicação saem daí, não de uma receita pronta.</p>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-manut__ico"><!--icone:seringa--></span>
+        <p class="blk-manut__quando">Dia 0</p>
+        <h3>Aplicação</h3>
+        <p>Suaviza as linhas de expressão preservando o movimento. O objetivo é um rosto descansado, não congelado.</p>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-manut__ico"><!--icone:rosto--></span>
+        <p class="blk-manut__quando">Meses seguintes</p>
+        <h3>Efeito gradual</h3>
+        <p>A toxina perde força devagar, no tempo de cada organismo. A musculatura vai retomando a movimentação.</p>
+      </li>
+      <li data-reveal style="--d:360ms" class="blk-manut__destaque">
+        <span class="blk-manut__ico"><!--icone:agenda--></span>
+        <p class="blk-manut__quando"><span data-count="4">4</span> meses, em média</p>
+        <h3>Reavaliação</h3>
+        <p>É quando a clínica confere a resposta do seu rosto e decide se já é hora de uma nova aplicação.</p>
+      </li>
+    </ol>
+    <p class="blk-manut__fim" data-reveal>Sua última aplicação foi há uns quatro meses? <a href="https://wa.me/5521991545021?text=Ol%C3%A1!%20Quero%20agendar%20minha%20reavalia%C3%A7%C3%A3o%20da%20toxina.">Agende a reavaliação pelo WhatsApp</a>.</p>
+  </div>
+</section>
+
+<style>
+.blk-manut{padding-block:var(--sp-section)}
+.blk-manut__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-manut__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-manut__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-manut__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-manut__ciclo{
+  list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3);
+  position:relative;
+}
+.blk-manut__ciclo li{
+  position:relative;padding:var(--sp-4);border-radius:var(--r);
+  background:color-mix(in srgb,var(--pulse) 9%,var(--bg));
+  border:1px solid color-mix(in srgb,var(--pulse) 40%,transparent);
+}
+.blk-manut__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-manut__ico svg{width:100%;height:100%}
+.blk-manut__quando{
+  margin:var(--sp-2) 0 0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);
+  text-transform:uppercase;color:color-mix(in srgb,var(--ink) 60%,transparent);
+}
+.blk-manut__ciclo h3{
+  margin:var(--sp-1) 0 0;font-family:var(--f-display);font-weight:500;
+  font-size:clamp(1.6rem,3.6vw,2rem);line-height:1.1;color:var(--ink);
+}
+.blk-manut__ciclo li p:last-child{margin:var(--sp-2) 0 0;font-size:.97rem;line-height:1.6;color:color-mix(in srgb,var(--ink) 76%,transparent)}
+.blk-manut__destaque{background:var(--brand)!important;border-color:var(--brand)!important}
+.blk-manut__destaque .blk-manut__ico{color:var(--pulse)}
+.blk-manut__destaque .blk-manut__quando{color:var(--pulse)}
+.blk-manut__destaque h3{color:var(--bg)!important}
+.blk-manut__destaque p:last-child{color:color-mix(in srgb,var(--bg) 86%,transparent)!important}
+.blk-manut__fim{margin:var(--sp-4) 0 0;font-size:1.05rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-manut__fim a{color:var(--brand);text-underline-offset:.2em}
+@media (min-width:900px){
+  .blk-manut__ciclo{grid-template-columns:repeat(4,1fr);gap:var(--sp-2)}
+  .blk-manut__ciclo::before{
+    content:"";position:absolute;left:2%;right:2%;top:2.9rem;height:1px;
+    background:color-mix(in srgb,var(--pulse) 70%,transparent);z-index:-1;
+  }
+}
+</style>

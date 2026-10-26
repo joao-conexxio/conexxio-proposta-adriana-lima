@@ -1,0 +1,67 @@
+<section class="blk-traj" id="equipe">
+  <div class="wrap">
+    <div class="blk-traj__grid">
+      <figure class="blk-traj__foto" data-reveal>
+        <!--foto:midia/dra-clinica.jpg|Dra. Adriana Lima, de jaleco preto bordado com o nome, na porta da AL Clinic-->
+        <figcaption>Na porta da AL Clinic, na Penha</figcaption>
+      </figure>
+      <div>
+        <div class="blk-traj__cab" data-reveal>
+          <p class="blk-traj__eyebrow">Quem atende você</p>
+          <h2 class="blk-traj__titulo">Dra. Adriana Lima</h2>
+          <p class="blk-traj__sub">Biomédica esteta · especialista em Harmonização Facial</p>
+        </div>
+        <ol class="blk-traj__linha">
+          <li data-reveal style="--d:0ms">
+            <span class="blk-traj__ano"><span data-count="1999">1999</span></span>
+            <p>Começa a trabalhar com estética.</p>
+          </li>
+          <li data-reveal style="--d:100ms">
+            <span class="blk-traj__ano"><!--icone:microscopio--></span>
+            <p>Gradua-se em Biomedicina pela UniGranRio e forma-se também em Estética.</p>
+          </li>
+          <li data-reveal style="--d:200ms">
+            <span class="blk-traj__ano"><!--icone:rosto--></span>
+            <p>Especializa-se em Harmonização Facial e faz pós-graduação em Terapia Integrativa e Estética.</p>
+          </li>
+          <li data-reveal style="--d:300ms">
+            <span class="blk-traj__ano">Hoje</span>
+            <p>Atende na AL Clinic, na Penha, ao lado da equipe que as pacientes elogiam nas avaliações do Google.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-traj{padding-block:var(--sp-section);background:var(--bg-2)}
+.blk-traj__grid{display:grid;gap:var(--sp-5)}
+.blk-traj__foto{margin:0;max-width:22rem}
+.blk-traj__foto img{display:block;width:100%;aspect-ratio:9/14;object-fit:cover;border-radius:var(--r)}
+.blk-traj__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-traj__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-traj__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);color:var(--ink);
+}
+.blk-traj__sub{margin:var(--sp-2) 0 0;color:var(--ink-soft)}
+.blk-traj__linha{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:0}
+.blk-traj__linha li{
+  display:grid;grid-template-columns:5.5rem 1fr;gap:var(--sp-3);align-items:baseline;
+  padding-block:var(--sp-3);border-top:1px solid var(--line);
+}
+.blk-traj__linha li:last-child{border-bottom:1px solid var(--line)}
+.blk-traj__ano{
+  font-family:var(--f-display);font-size:1.6rem;line-height:1;color:var(--brand);
+  display:inline-flex;align-items:center;
+}
+.blk-traj__ano svg{width:1.9rem;height:1.9rem;color:var(--pulse)}
+.blk-traj__linha p{margin:0;font-size:1.02rem;line-height:1.6;color:var(--ink-soft)}
+@media (min-width:900px){
+  .blk-traj__grid{grid-template-columns:minmax(16rem,22rem) 1fr;gap:clamp(3rem,6vw,6rem);align-items:center}
+}
+</style>

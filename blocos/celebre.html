@@ -1,0 +1,77 @@
+<section class="blk-celebre" id="celebre">
+  <div class="wrap">
+    <div class="blk-celebre__grid">
+      <div class="blk-celebre__cab" data-reveal>
+        <p class="blk-celebre__eyebrow">Só na AL Clinic</p>
+        <h2 class="blk-celebre__titulo">Traga as amigas. A comemoração é aqui.</h2>
+        <p class="blk-celebre__lead" data-acende>A clínica abre o espaço para grupos: mesa de frios, petiscos e bolo de um lado, cuidados com a pele do outro. Uma tarde de beleza e conversa, em vez de mais um restaurante.</p>
+        <p class="blk-celebre__preco"><span>Pacote básico</span> menos de R$ 100 por pessoa</p>
+        <a class="blk-celebre__btn" href="https://wa.me/5521991545021?text=Ol%C3%A1!%20Quero%20saber%20sobre%20o%20pacote%20de%20comemora%C3%A7%C3%A3o%20na%20cl%C3%ADnica.">Montar a minha comemoração</a>
+      </div>
+      <div class="blk-celebre__lados">
+        <div class="blk-celebre__lado" data-reveal style="--d:100ms">
+          <span class="blk-celebre__ico"><!--icone:estrela--></span>
+          <h3>Para comemorar</h3>
+          <ul>
+            <li>Aniversários</li>
+            <li>Encontros de amigas</li>
+            <li>Chás de lingerie</li>
+            <li>Confraternizações de fim de ano</li>
+          </ul>
+        </div>
+        <div class="blk-celebre__lado" data-reveal style="--d:220ms">
+          <span class="blk-celebre__ico"><!--icone:spa--></span>
+          <h3>Para cuidar</h3>
+          <ul>
+            <li>Limpeza de pele</li>
+            <li>Revitalização facial</li>
+            <li>Tratamentos escolhidos para o grupo</li>
+            <li>Momento de autocuidado</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-celebre{padding-block:var(--sp-section);background:var(--brand-2);color:var(--bg)}
+.blk-celebre__grid{display:grid;gap:var(--sp-5)}
+.blk-celebre__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse);
+}
+.blk-celebre__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--bg);
+}
+.blk-celebre__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;line-height:1.65;color:color-mix(in srgb,var(--bg) 88%,transparent)}
+.blk-celebre__preco{
+  margin:var(--sp-4) 0 0;padding-top:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--pulse) 50%,transparent);
+  font-family:var(--f-display);font-size:clamp(1.5rem,3.4vw,2rem);line-height:1.2;color:var(--bg);
+}
+.blk-celebre__preco span{
+  display:block;margin-bottom:var(--sp-1);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse);
+}
+.blk-celebre__btn{
+  display:inline-flex;margin-top:var(--sp-4);padding:.9rem 1.6rem;border-radius:999px;
+  background:var(--pulse);color:var(--ink);font-weight:500;text-decoration:none;
+}
+.blk-celebre__lados{display:grid;gap:var(--sp-3)}
+.blk-celebre__lado{
+  padding:var(--sp-4);border-radius:var(--r);
+  border:1px solid color-mix(in srgb,var(--pulse) 45%,transparent);
+  background:color-mix(in srgb,var(--bg) 6%,transparent);
+}
+.blk-celebre__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--pulse)}
+.blk-celebre__ico svg{width:100%;height:100%}
+.blk-celebre__lado h3{margin:var(--sp-2) 0 0;font-family:var(--f-display);font-weight:500;font-size:1.7rem;color:var(--bg)}
+.blk-celebre__lado ul{list-style:none;margin:var(--sp-3) 0 0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-celebre__lado li{position:relative;padding-left:1.4rem;color:color-mix(in srgb,var(--bg) 86%,transparent)}
+.blk-celebre__lado li::before{content:"";position:absolute;left:0;top:.7em;width:.7rem;height:1px;background:var(--pulse)}
+@media (min-width:900px){
+  .blk-celebre__grid{grid-template-columns:1.1fr 1fr;align-items:center;gap:var(--sp-6,4rem)}
+}
+@media (min-width:600px){.blk-celebre__lados{grid-template-columns:1fr 1fr}}
+</style>

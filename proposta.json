@@ -1,0 +1,287 @@
+{
+  "slug": "adriana-lima",
+  "negocio": {
+    "nome": "AL Clinic · Dra. Adriana Lima",
+    "logo": "brand/logo.png",
+    "whatsapp": "5521991545021",
+    "unidades": [
+      {
+        "bairro": "Penha · Rio de Janeiro",
+        "endereco": "Av. Montevidéu, 1171 – Penha, Rio de Janeiro – RJ, 21020-290",
+        "telefone": "(21) 99154-5021",
+        "horario": "Seg a qui, 8h às 20h · sex, 8h às 18h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#4E1A44",
+    "brand2": "#2C0D27",
+    "ink": "#2A1A26",
+    "bg": "#FBF6EE",
+    "pulse": "#C4A265",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Toxina",
+            "href": "#manutencao"
+          },
+          {
+            "texto": "Comemore aqui",
+            "href": "#celebre"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Harmonização · Penha",
+        "h1": "Seu rosto, sem receita pronta",
+        "lead": "Toxina, preenchimento, fios de PDO e cuidados de pele planejados para o seu rosto, com a Dra. Adriana Lima, biomédica na estética desde 1999.",
+        "cta": "Agendar avaliação gratuita",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "5,0 no Google · 150 avaliações · AL · ",
+        "cardTitulo": "Fale com a equipe",
+        "imagem": "midia/dra-retrato.jpg",
+        "imagemAlt": "Dra. Adriana Lima, de blazer branco, sorrindo no consultório",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Harmonização facial",
+          "Toxina botulínica",
+          "Preenchimento",
+          "Fios de PDO",
+          "Skinbooster",
+          "Microagulhamento",
+          "Radiofrequência",
+          "Limpeza de pele",
+          "Depilação a laser"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Antes de você chegar",
+        "itens": [
+          {
+            "valor": "1999",
+            "rotulo": "o ano em que a Dra. Adriana começou na estética"
+          },
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "150",
+            "rotulo": "avaliações de pacientes",
+            "contar": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "O jeito da casa",
+        "citacao": "Você não precisa chegar sabendo qual procedimento quer. Só o que gostaria de melhorar.",
+        "autor": "Dra. Adriana Lima",
+        "texto": [
+          "Cada rosto se move de um jeito e tem uma proporção própria. O trabalho da clínica é encontrá-la, não trocá-la por um padrão que está em alta.",
+          "Por isso tudo começa numa avaliação sem custo: a Dra. escuta o que incomoda você, olha a pele, o contorno e a expressão, e só então indica o que faz sentido — e o que não precisa ser feito."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "O que fazemos por aqui",
+        "lead": "Rosto, pele e corpo. A avaliação define o que entra no seu plano e em que ordem.",
+        "itens": [
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Equilíbrio entre as proporções do rosto, com procedimentos combinados a partir dos seus traços.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa, da glabela e dos olhos sem tirar o movimento.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Devolve volume e contorno em pontos escolhidos: lábios, malar, queixo, olheiras.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Fios de PDO",
+            "descricao": "Sustentação para regiões com sinais de flacidez, sem cirurgia.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Skinbooster",
+            "descricao": "Hidratação profunda para a pele ganhar viço e luminosidade.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Microagulhamento",
+            "descricao": "Estimula a renovação da pele e melhora textura, poros e firmeza.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Radiofrequência",
+            "descricao": "Para flacidez no rosto e no corpo, celulite e gordura localizada.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Feita com calma e explicação do cuidado em casa, para a pele ficar limpa sem agredir.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Depilação a laser",
+            "descricao": "Redução dos pelos em sessões, para rosto e corpo.",
+            "icone": "laser"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/manutencao.html"
+    },
+    {
+      "custom": "blocos/trajetoria.html"
+    },
+    {
+      "custom": "blocos/celebre.html"
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou pela cadeira da Dra. Adriana",
+        "itens": [
+          {
+            "texto": "Ela conversa, tira dúvidas e tem paciência. A limpeza de pele costuma machucar, mas ela deixou meu rosto limpinho sem doer.",
+            "autor": "Malu L.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Sou cliente desde 2019 e não troco por nada. Ela renova a minha beleza de um jeito completamente natural.",
+            "autor": "Vanessa R.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Minha mãe faz botox e eu faço depilação e limpeza de pele. A Dra. explica de um jeito que eu entendo como cuidar da pele em casa.",
+            "autor": "L. Paes",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "A Adriana é um amor — e não só ela, toda a equipe.",
+            "autor": "Giselly T.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas de quem vai pela primeira vez",
+        "itens": [
+          {
+            "p": "Botox deixa o rosto congelado?",
+            "r": "Não deveria. Com avaliação e pontos escolhidos para o seu rosto, a toxina suaviza as linhas e preserva a expressão. A quantidade não é receita pronta."
+          },
+          {
+            "p": "De quanto em quanto tempo refaço a toxina?",
+            "r": "Em média por volta de quatro meses, mas depende da resposta de cada organismo. Na reavaliação a Dra. confere se já é hora de reaplicar."
+          },
+          {
+            "p": "Preciso saber qual procedimento quero?",
+            "r": "Não. Conte o que gostaria de melhorar; a indicação sai da avaliação, inclusive do que não precisa ser feito."
+          },
+          {
+            "p": "A avaliação é paga?",
+            "r": "Não. A primeira avaliação é gratuita e é agendada pelo WhatsApp da clínica."
+          },
+          {
+            "p": "Vou ficar com cara de quem fez harmonização?",
+            "r": "Não é o que se busca aqui. O planejamento parte das suas proporções, para realçar sem exagerar nem padronizar."
+          },
+          {
+            "p": "Dá para comemorar aniversário na clínica?",
+            "r": "Dá. A clínica recebe grupos para aniversários, encontros de amigas, chás e confraternizações, com mesa de petiscos e cuidados de pele. O pacote básico sai por menos de R$ 100 por pessoa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Penha, na Avenida Montevidéu"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação gratuita",
+        "lead": "Conte pelo WhatsApp o que gostaria de melhorar. A equipe encontra um horário com a Dra. Adriana.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Toxina",
+            "href": "#manutencao"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "AL Clinic · Dra. Adriana Lima · Biomédica esteta. Resultados variam de paciente para paciente; a indicação de cada procedimento é feita em avaliação."
+      }
+    }
+  ]
+}
